@@ -1,0 +1,19 @@
+# --- Python & VS Code ---
+__pycache__/
+*.py[cod]
+.vscode/
+venv/
+env/
+
+# --- Data & Large Files (QUAN TRỌNG) ---
+# Chặn tất cả file .npy vì nó rất nặng
+*.npy
+
+# Chặn folder data (nơi chứa file gốc)
+data/
+processed/
+locv3/
+
+# --- Kết quả (Tùy chọn) ---
+# Nếu muốn giữ lại ảnh biểu đồ thì ĐỪNG bỏ comment dòng dưới
+# results/*.png
